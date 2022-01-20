@@ -65,5 +65,3 @@ def motDePasse(login, mdp, n, p, q, r, s, t, u) :
         
     else :  # mot de passe valide
         return 0
-
-print(motDePasse("Darina", "2G2ree!", 1, 3, 1, 1, 2, 5, ["cc", "salut","222Greee!"]))
