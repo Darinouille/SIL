@@ -11,7 +11,7 @@ def motDePasse(login, mdp, n, p, q, r, s, t, u) :
     accent = False
 
     while cpt < len(mdp) :
-        if mdp[cpt] not in "0123456789" : # recompte caractères numériques consécutifs
+        if mdp[cpt] not in "0123456789" : # On recommence le compte de caractères numériques consécutifs
             if nbConsec > S :
                 S = nbConsec
             nbConsec = 0
@@ -33,8 +33,6 @@ def motDePasse(login, mdp, n, p, q, r, s, t, u) :
             accent = True
             
         cpt = cpt + 1
-        
-    print (N, P, Q, R, S)
 
     if N < n :
         return 200
