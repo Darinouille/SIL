@@ -1,0 +1,75 @@
+/* ---------- Mise en page du texte ---------- */
+
+body {
+  text-align: center;
+  font-size: 15px;
+  color: #0C0D27;
+  margin: 0px;
+  background-color: white;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 17px;
+  background-color: #5EBFD3;
+	width: 98%;
+  padding: 1%;
+  margin-bottom: 20px;
+}
+
+section {
+  width: 88%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#credits {
+  font-size: 10px;
+  color: white;
+  background-color: #5EBFD3;
+	width: 95%;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a, #credits a {
+  color: white;
+}
+
+nav a:hover, #credits a:hover {
+  color: #D7EFF4;
+}
+
+/* ---------- Banderole logo ---------- */
+
+#en-tete {
+  height: 200px;
+  width: 100%;
+  background-color: #D7EFF4;
+}
+
+#thales {
+  padding-top: 15px;
+}
+
+#logo {
+  margin-top: 10px;
+  padding: 2% 7% 2% 7%;
+  background-color: #5EBFD3;
+}
+
+/* ---------- Séparateurs ---------- */
+
+.separator {
+	clear: both;
+	height: 150px;
+}
+
+.separator2 {
+	clear: both;
+	height: 20px;
+}

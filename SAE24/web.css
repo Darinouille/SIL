@@ -1,0 +1,293 @@
+/* ---------- Mise en page du texte ---------- */
+
+body {
+  font-size: 15px;
+  color: #0C0D27;
+  margin: 0px;
+  background-color: #EAEEF1;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 17px;
+  background-color: #5EBFD3;
+	width: 98%;
+  padding: 1%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+}
+
+h5 {
+  font-weight: normal;
+  width: 90%;
+  margin:auto;
+  font-size: 10px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1%;
+}
+
+.texte {
+  background-color: white;
+  padding: 1%;
+  margin-bottom: 3px;
+  text-align: justify;
+}
+
+section {
+  width: 88%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#credits {
+  font-size: 10px;
+  color: white;
+  background-color: #5EBFD3;
+	width: 95%;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a, #credits a {
+  color: white;
+}
+
+nav a:hover, #credits a:hover {
+  color: #D7EFF4;
+}
+
+a {
+  color: #0C0D27;
+  text-decoration: none;
+}
+
+#deco {
+  float: right;
+}
+
+/* ---------- Médias---------- */
+
+iframe {
+  display: block;
+  padding-top: 30px;
+  margin: auto;
+  border: none;
+}
+
+.image {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#camera {
+  position: sticky;
+  top: 80%;
+  left: 10px;
+}
+
+/* ---------- Gallerie d'images ---------- */
+
+.ligne {
+  display: block;
+}
+
+.gallerie {
+  float: left;
+  width: 31.33%;
+  display: inline-block;
+  padding: 1%;
+}
+
+figure {
+  display: inline;
+}
+
+figure img {
+  width: 100%;
+  display : block
+}
+
+figcaption {
+  height: 0px;
+  margin:auto;
+  font-size: 10px;
+  text-align: center;
+  overflow: visible;
+  margin-top: 5px;
+}
+
+#profil {
+  width: 30%;
+  margin: auto;
+}
+
+#contact {
+  height: 4em;
+  margin:auto;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* ---------- Banderole logo ---------- */
+
+#en-tete {
+  height: 90px;
+  background-color: #5EBFD3;
+}
+
+#logo {
+  height: 60px;
+  position:absolute;
+  padding-top: 15px;
+  padding-left: 5%;
+}
+
+/* ---------- Séparateurs ---------- */
+
+.separator0 {
+	clear: both;
+	height: 100px;
+}
+
+.separator1 {
+	clear: both;
+	height: 50px;
+}
+
+.separator2 {
+	clear: both;
+	height: 20px;
+}
+
+/* ---------- Sommaire ---------- */
+
+#menu {
+	overflow: hidden;
+  position: static;
+}
+
+#menu a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+#menu > ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  padding-left: 5%;
+  width: 95%;
+  display: block;
+  position: absolute;
+  background: #0C0D27;
+}
+
+#menu > ul li {
+  display: inline-block;
+}
+
+#menu > ul > li > a {
+  display: block;
+  left: 0;
+  width: 100%;
+  margin-right: 50px;
+  line-height: 45px;
+  background: #0C0D27;
+}
+
+#menu > ul li ul {
+  display: none;
+}
+
+#menu > ul li ul.actif {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 95%;
+  padding: 0;
+  padding-left: 5%;
+  background: white;
+  line-height: 45px;
+}
+
+#menu > ul li:first-child ul {
+  padding-bottom: 5px;
+}
+
+#menu > ul li ul > li > a {
+  color: #0C0D27;
+  display: block;
+  margin-right: 50px;
+  width: 100%;
+}
+
+.barre {
+  border-bottom: 5px solid #5EBFD3;
+}
+
+#menu > ul li ul li ul {
+  display: none;
+}
+
+#menu > ul li ul li ul.actif {
+  top: 0;
+  right: 0;
+  width: 60%;
+  margin-left: 30%;
+  text-align: right;
+  background: none;
+}
+
+
+#menu > ul li ul > li ul > a {
+  display: block;
+  line-height: 50px;
+}
+
+#photo {
+  position: sticky;
+  top: 90%;
+}
+
+/* ---------- Tableau ---------- */
+
+table {
+  width: 100%;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
+
+td {
+  background-color: white;
+  padding: 1%;
+  margin-bottom: 3px;
+  text-align: justify;
+}

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>SIL</title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+    <link rel="icon" type="img/png" sizes="16x16" href="image/triangle.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+    <div id="en-tete">
+      <img src="image/SIL_logoBlanc.png" id="logo" alt="SIL">
+      <a id="deco" href="deconnexion.html">
+        <img src="image/logout.png" alt="Se déconnecter" height="90px">
+      </a>
+    </div>
+
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="accueil.html">ACCUEIL</a>
+          <ul>
+            <li>
+              <ul>
+                <li>Trier par :</li>
+                <li><a href="#">Nom</a></li>
+                <li><a href="#">Test</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="donnees.evenements.html">DONNÉES</a>
+          <ul>
+            <li>
+              <a href="donnees.evenements.html">ÉVÉNEMENTS</a>
+              <ul>
+                <li>Trier par :</li>
+                <li><a href="#">Date</a></li>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">Warning</a></li>
+                <li><a href="#">Alarme</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="donnees.utilisateurs.html">UTILISATEURS</a>
+              <ul>
+                <li>Trier par :</li>
+                <li><a href="#">Date</a></li>
+                <li><a href="#">Utilisateur</a></li>
+                <li><a href="#">Action</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a class="barre" href="parametres.reglages.html">PARAMÈTRES</a>
+          <ul class="actif">
+            <li><a href="parametres.reglages.html">RÉGLAGES</a></li>
+            <li><a class="barre" href="parametres.utilisateurs.html">UTILISATEURS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+        <img src="image/photo-camera.png" alt="Prendre une photo" height="90px" id="camera">
+
+        <div class="separator2"></div>
+
+        <section>
+          <h1>Création d'un nouveau compte</h1>
+          <form method='post' action='convert.php'>
+          <label for='ident'>Identifiant</label> <input type='str' name='ident' id='ident'/>
+          <div class="separator2"></div>
+          <label for='mdp'>Mot de passe</label> <input type='str' name='mdp' id='mdp'/>
+          <div class="separator2"></div>
+          <button type="submit" name="creer">Création du compte</button>
+
+          <div class="separator1"></div>
+
+          <h1>Modification d'un mot de passe</h1>
+          <form method='post' action='convert.php'>
+          <label for='ident'>Identifiant</label> <input type='str' name='ident' id='ident'/>
+          <div class="separator2"></div>
+          <label for='mdp'>Nouveau mot de passe</label> <input type='str' name='mdp' id='mdp'/>
+          <div class="separator2"></div>
+          <button type="submit" name="modif">Modification du compte</button>
+
+          <div class="separator1"></div>
+
+          <h1>Liste des comptes</h1>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Identifiant</th>
+                <th>Date de création</th>
+                <th>Modification mot de passe</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Opér.</td>
+                <td>Toto</td>
+                <td>30/11/2021</td>
+                <td>Il y a 94 jours</td>
+                <td><button type="submit" name="suppr">Supprimer</button></td>
+              </tr>
+              <tr>
+                <td>Opér.</td>
+                <td>Titi</td>
+                <td>20/11/2021</td>
+                <td>Il y a 4 jours</td>
+                <td><button type="submit" name="suppr">Supprimer</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <div class="separator1"></div>
+
+        <div id="credits">
+          <a href="https://jigsaw.w3.org/css-validator/">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Valide !"/>
+          </a>
+          <div class="separator2"></div>
+          Icons made by <a href="https://www.freepik.com" target="_blank" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a>
+          <br>
+          © <a href="https://darinouille.github.io/index" target="_blank" title="Darina CHAN">Darina CHAN</a> et <a href="https://tarekeldada2.github.io/index.html" target="_blank" title="Tarek EL DADA">Tarek EL DADA</a>
+        </div>
+      </body>
+    </html>
